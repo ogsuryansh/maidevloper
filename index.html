@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Am Developer - Telegram Bots & Web Development</title>
-    <meta name="description" content="Custom Telegram bots and modern websites built exactly as per your needs. From automation to powerful systems, everything is possible.">
+    <meta name="description"
+        content="Custom Telegram bots and modern websites built exactly as per your needs. From automation to powerful systems, everything is possible.">
+    <link rel="icon" type="image/jpeg" href="photo_2025-12-28_15-09-55.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -83,12 +88,16 @@
         }
 
         @keyframes float {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translate(0, 0) scale(1);
             }
+
             33% {
                 transform: translate(100px, -100px) scale(1.1);
             }
+
             66% {
                 transform: translate(-100px, 100px) scale(0.9);
             }
@@ -210,8 +219,15 @@
         }
 
         @keyframes gradientShift {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
         }
 
         .hero p {
@@ -280,6 +296,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -519,11 +536,16 @@
         }
 
         @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
-        .contact-section > * {
+        .contact-section>* {
             position: relative;
             z-index: 1;
         }
@@ -617,6 +639,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Animated Background -->
     <div class="animated-bg">
@@ -646,7 +669,7 @@
                 Building <span class="gradient-text">Custom Solutions</span> For Your Digital Needs
             </h1>
             <p>
-                From powerful Telegram bots to stunning modern websites — If you have an idea, I can build it. 
+                From powerful Telegram bots to stunning modern websites — If you have an idea, I can build it.
                 Small tools to enterprise systems, everything is possible.
             </p>
             <div class="cta-buttons">
@@ -859,7 +882,8 @@
     <!-- Footer -->
     <footer>
         <p>© 2025 I Am Developer. Built with passion and precision. 💻✨</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Custom Telegram Bots • Modern Websites • Automation Solutions</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Custom Telegram Bots • Modern Websites • Automation Solutions
+        </p>
     </footer>
 
     <script>
@@ -885,13 +909,13 @@
 
         window.addEventListener('scroll', () => {
             const currentScroll = window.pageYOffset;
-            
+
             if (currentScroll > 100) {
                 navbar.classList.add('scrolled');
             } else {
                 navbar.classList.remove('scrolled');
             }
-            
+
             lastScroll = currentScroll;
         });
 
@@ -914,7 +938,7 @@
             const orbs = document.querySelectorAll('.orb');
             const x = e.clientX / window.innerWidth;
             const y = e.clientY / window.innerHeight;
-            
+
             orbs.forEach((orb, index) => {
                 const speed = (index + 1) * 20;
                 orb.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
@@ -922,4 +946,5 @@
         });
     </script>
 </body>
+
 </html>
